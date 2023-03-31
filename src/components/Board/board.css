@@ -1,0 +1,72 @@
+
+.board {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 100%; */
+    /* overflow-y: auto; */
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.board_top{
+    
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.board_dropdown{
+    background-color: #fff;
+    width: 110px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.12);
+}
+.board_dropdown p{
+    cursor: pointer;
+}
+.board_title{
+    /* flex:1; */
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.board_count{
+    color: gray;
+    font-size: 1rem;
+}
+
+.board_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-y: auto;
+    /* background-color: aqua; */
+}
+
+.board_add_card {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+  }
+
+  .board_top_more{
+    position:relative ;
+    cursor: pointer;
+  }
+
+  .board_dropdown:hover{
+        background-color: #91b4e6;
+  }

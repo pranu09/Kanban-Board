@@ -1,0 +1,136 @@
+.cardInfo {
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.cardInfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.cardInfoBoxTitle {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background-color: transparent; */
+
+}
+
+.cardInfoBoxBody {
+    width: fit-content;
+}
+
+.cardInfoBoxBody input {
+    outline: none;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cardInfoBox_colors {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.cardInfoBox_colors li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    list-style: none;
+    border: 2px solid transparent;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.cardInfoBox_colors .active {
+    border: 3px solid yellow;
+}
+
+.cardInfo_box_progress_bar {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    height: 10px;
+
+
+}
+
+.cardInfo_box_progress {
+    width: 10px;
+    border-radius: 20px;
+    height: 10px;
+    background-color: #1379ec;
+}
+
+.card_Info_Box_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cardinfo_box_task_checkbox{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;
+     */
+     gap: 10px;
+}
+.cardinfo_box_task_checkbox p{
+    line-height: 10px;
+
+    /* for strech */
+    flex: 1;
+}
+.cardinfo_box_task_checkbox input,
+.cardinfo_box_task_checkbox svg {
+  height: 18px;
+  width: 18px;
+  outline: none;
+  cursor: pointer;
+}
+.cardInfo_task {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 0;
+
+}
+
+
+
+.cardInfo_task p {
+   
+}
+.cardinfo_box_task_checkbox .completed {
+    text-decoration-line: line-through;
+  }
+
+  .cardinfo_box input[type="date"] {
+    width: fit-content;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+
+.cardInfoBox_labels{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
